@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Characters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pokémon API REST</h1>
+    <button id="getAllPokemon">Get All Pokémon</button>
+
+
+    <form id="filterForm">
+        <h2>Filter Pokémon</h2>
+        <label for="height">Height:</label>
+        <input type="number" id="height" name="height"><br>
+        
+        <label for="weight">Weight:</label>
+        <input type="number" id="weight" name="weight"><br>
+        
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type"><br>
+        
+        <button type="submit">Filter Pokémon</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
